@@ -1,0 +1,101 @@
+.footer {
+    padding: 20px 0;
+    font-size: 12px;
+    background-color: #fff;
+    zoom: 1;
+}
+.foot-banner, .foot-iconlink {
+    background: url(../images/footer.png) no-repeat;
+}
+.foot-banner{
+	height: 56px;
+	border: solid 1px #ddd;
+	padding: 17px 0;
+	border-width: 1px 0;
+	background-position: 0 -125px;
+}
+.foot-banner a.foot-banner-post {
+    margin-left: 30px;
+}
+.foot-banner a.foot-banner-post {
+    width: 80px;
+}
+.foot-banner a.foot-banner-tom {
+    width: 120px;
+    margin-left: 20px;
+}
+.foot-banner a.foot-banner-commitment {
+    width: 210px;
+    margin-left: 80px;
+}
+.foot-banner a.foot-banner-free {
+    width: 220px;
+    margin-left: 105px;
+}
+.foot-banner a {
+    float: left;
+    height: 52px;
+    text-indent: -9999px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.foot-helper {
+    padding: 10px 0 20px;
+    text-align: left;
+    width: 100%;
+}
+.foot-helper ul {
+    width: 1200px;
+}
+.foot-helper li {
+    width: 120px;
+    padding: 5px 96px 0 0;
+    float: left;
+}
+.foot-helper li:last-child{
+	padding-right: 0;
+}
+.foot-helper li h4 {
+    color: #666;
+    line-height: 22px;
+    margin: 0 0 5px;
+    border-bottom: dotted 1px #ccc;
+}
+.foot-helper li a {
+    display: block;
+    line-height: 22px;
+    color: #888;
+}
+.foot-license {
+    line-height: 20px;
+    padding: 15px 0 5px;
+    text-align: center;
+    color: #999;
+    border-top: solid 1px #ddd;
+}
+.foot-license li {
+    float: left;
+    line-height: 20px;
+    margin-right: 9px;
+}
+.foot-copyright {
+    line-height: 20px;
+    color: #999;
+    font-family: verdana;
+}
+.foot-copyright a{
+	color:#999;
+}
+.sep {
+    color: #ddd;
+    margin: 0 5px;
+}
+.foot-iconlink {
+    margin-top: 15px;
+}
+.foot-iconlink a {
+    float: left;
+    width: 100px;
+    height: 34px;
+    margin-right: 5px;
+}

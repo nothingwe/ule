@@ -1,0 +1,108 @@
+body,html,input,div,span,a,form,img,ul,li,ol,
+dl,dt,dd,p,h1,h3,h2,h4,h5,h6,
+select,textarea,figure,section,main,nav{padding: 0; margin: 0;}
+a{
+	text-decoration:none;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul li,ol li{
+	list-style: none;
+}
+img{
+	vertical-align: top;
+}
+i,em{
+	font-style: normal;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 0.12rem;
+}
+.fl{
+	float: left;
+	}
+.fr{
+	float: right;
+}
+.blue,a .blue{
+	color:#06c;
+}
+.cf60 {
+    color: #f60;
+}
+a{
+	cursor: pointer;
+	color:#666;
+}
+.clearfix::after{
+	content:"";
+	clear:both;
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+	height: 0;
+	font-size: 0;
+}
+.red,a.red{
+	color: red;
+}
+body,.header,.footer,.wrapper,.register{
+	min-width: 1200px;
+}
+.layout{
+	width:1200px;
+	margin:0 auto;
+}
+.z10{
+	z-index: 10;
+}
+.z11{
+	z-index: 11;
+}
+.z12{
+	z-index: 12;
+}
+.z14{
+	z-index: 14;
+}
+.z15{
+	z-index: 15;
+}
+.z16{
+	z-index: 16;
+}
+.z17{
+	z-index: 17;
+}
+.z20{
+	z-index: 20;
+}
+.z22{
+	z-index: 22;
+}
+.z24{
+	z-index: 24;
+}
+.z28{
+	z-index: 28;
+}
+.z40{
+	z-index: 40;
+}
+.z42{
+	z-index: 42;
+}
+html,body{
+	height:100%;
+}
+body {
+    background-color: #f6f6f6;
+}
+strong{
+	font-weight: normal;
+}
+input{
+	outline: none;
+}

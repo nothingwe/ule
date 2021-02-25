@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		<script src="../jquery/jquery.js"></script>
+	</head>
+	<body>
+		<div class="header1"></div>
+		<div class="logining">
+			<div class="login-box">
+				<div class="login-form">
+					<p>登录</p>
+					<form action="">
+						<input type="text" placeholder="请输入您的账号或手机号">
+						<input type="password" placeholder="请输入您的密码">
+						<input type="checkbox" name="argument"/>
+						<label for="argument">同意
+						    <a href="">《邮乐用户协议》</a>
+							<a href="">《隐私权政策》</a>
+							<a href="">《积分授权及账户绑定条款》</a>
+							<a href="">《中国邮政会员服务协议》</a>
+							及其相关条款和条件
+					    </label>
+						<input type="button" value="立即登录">
+					</form>
+					<div class="coop">
+						<span>您也可以使用以下合作网站帐号</span>
+						<a href=""></a>
+						<a href=""></a>
+						<a href=""></a>
+						<a href=""><img src="../images/wxlgimg.jpg" alt=""><b>微信登录</b></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	    <div class="footer1"></div>
+		<script src="../js/cookie.js" type="text/javascript"></script>
+		<script src="../js/ajax.js" type="text/javascript"></script>
+		<script src="../js/login.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(".header1").load("./header1.html")
+			$(".footer1").load("./footer.html")
+		</script>
+	</body>
+</html>
