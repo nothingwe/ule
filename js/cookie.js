@@ -4,6 +4,7 @@ function setCookie(key,val,time1){
     var dt1=new Date()
     //计算时间戳，毫秒为单位
     var t1=dt1.getTime()-8*3600*1000+time1*1000
+	console.log(t1)
     //设置cookie
     document.cookie=`${key}=${val};expires=${new Date(t1)}`
 }
